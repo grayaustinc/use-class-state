@@ -1,0 +1,33 @@
+{
+  "name": "use-class-state",
+  "version": "1.0.0",
+  "description": "A React library that makes managing complex component states easier.",
+  "author": "@grayaustinc",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grayaustinc/use-class-state"
+  },
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "sideEffects": false,
+  "files": [
+    "lib/",
+    "esm/"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0  || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@types/react": "^18.2.28",
+    "rollup": "^4.1.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.2.2"
+  }
+}
