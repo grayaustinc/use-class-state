@@ -1,4 +1,4 @@
-# [useClassState](/#)
+# [useClassState](https://github.com/grayaustinc/use-class-state)
 
 **use-class-state** is a React library that makes managing complex component states easier.
 
@@ -106,7 +106,7 @@ export default function App() {
 This example showcases a React list management application using "use-class-state," where you can add and remove items dynamically with a list of numbers, each featuring a "Remove" button.
 
 ```tsx
-import { FunctionComponent } from "react";
+import { FC } from "react";
 import useClassState, { ClassState, updateClassState } from "use-class-state";
 
 class ListState extends ClassState {
@@ -141,7 +141,7 @@ interface ListItemProps {
   index: number;
 }
 
-const ListItem: FunctionComponent<ListItemProps> = ({ state, item, index }) => {
+const ListItem: FC<ListItemProps> = ({ state, item, index }) => {
   return (
     <li>
       <span>{String(item).padStart(5, "0")} </span>
