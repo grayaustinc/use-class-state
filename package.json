@@ -1,6 +1,6 @@
 {
   "name": "use-class-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React library that makes managing complex component states easier.",
   "author": "@grayaustinc",
   "license": "Unlicense",
@@ -22,6 +22,15 @@
     "url": "https://github.com/grayaustinc/use-class-state/issues"
   },
   "homepage": "https://github.com/grayaustinc/use-class-state",
+  "keywords": [
+    "front-end",
+    "web",
+    "react",
+    "hooks",
+    "react-hooks",
+    "typescript",
+    "state"
+  ],
   "peerDependencies": {
     "react": "^16.8.0  || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0  || ^17.0.0 || ^18.0.0"
